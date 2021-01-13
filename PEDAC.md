@@ -1,10 +1,10 @@
 # PEDA(C)
 
-- **P**rocess the Problem Understand the Problem
-- **E**xamples/Test Case Validate understanding of the problem
-- **D**ata Structure How we represent data that we will work with when converting the input to output.
-- **A**lgorithm Steps for converting input to output
-- **C**ode with Intent Code Implementation of Algorithm
+- **P**rocess the Problem - Understand the Problem
+- **E**xamples/Test Case - Validate understanding of the problem
+- **D**ata Structure - How we represent data that we will work with when converting the input to output.
+- **A**lgorithm - Steps for converting input to output
+- **C**ode with Intent - Code Implementation of Algorithm
 
 ## The Problem
 
