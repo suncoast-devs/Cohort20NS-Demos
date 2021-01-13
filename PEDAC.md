@@ -12,9 +12,9 @@
 
 Requirements:
 The input and output only deals with Integers.
-// Any inut not an integer is ignored.
+// Any input not an integer is ignored.
 
-Input: A list of number
+Input: A list of numbers
 Output: The largest number
 
 ## Examples
