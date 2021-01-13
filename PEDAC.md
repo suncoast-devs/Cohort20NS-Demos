@@ -35,11 +35,11 @@ Brenda(tio)n; sort from largest to smallest, select the first one [0].
 Kofi; order from smallest to largest, return the last one.
 Joe; Pick up two, throw the smallest away, until only one left. (Really annoying).
 
-> Make two variables, `current`, `largestSoFar`; intializing `largestSoFar` to 0
-> Go through the list,
-> ...ask if `current` is larger then `largestSoFar`
-> ......if it is, replace `largestSoFar` with the value of current.
-> ......otherwise, continue, making `current` the next item in the list.
+> Make two variables, `current`, `largestSoFar`; intializing `largestSoFar` to 0  
+> Go through the list,  
+> ...ask if `current` is larger then `largestSoFar`  
+> ......if it is, replace `largestSoFar` with the value of current.  
+> ......otherwise, continue, making `current` the next item in the list.  
 > return `largestSoFar`
 
 Code:
