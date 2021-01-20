@@ -19,9 +19,9 @@ namespace AllCardsOnDeckCS
       // IS THE SAME AS
       // 
       // for (int i = 0; i < n; i++) {
-      //   ^- Initializer
-      //              ^- Condition
-      //                                ^- After-though (some people mistakingly call it incremener)
+      //      ^- Initializer
+      //                 ^- Condition
+      //                        ^- After-thought (or post-condition) some people mistakingly call it incremener)
       // }
 
 
