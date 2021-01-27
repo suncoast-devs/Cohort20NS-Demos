@@ -6,57 +6,99 @@ namespace BlackJackCS
   class Card
   {
     // STATE or DATA
-    public string suit; // <- a property.
-    public string face;
+    public string Suit; // <- a property.
+    public string Face;
 
     // BEHAVIOR...
 
     // The constructor:
     public Card(string face, string suit) {
-      this.face = face;
-      this.suit = suit;
+      this.Face = face;
+      this.Suit = suit;
     }
 
     override public string ToString() {
-      return $"{this.face} of {this.suit}";
+      return $"{this.Face} of {this.Suit}";
+    }
+
+    public int Value()
+    {
+      // Return 1 for an Ace
+      // Return 2 for Two, Three, etc.
+      // Return 10 for Jack, Queen, etc.
+      return 0;
     }
   }
   
   class Deck
   {
-    public List<Card> cards;
+    public List<Card> Cards;
 
     public Deck()
     {
-      this.cards = new List<Card>();
+      this.Cards = new List<Card>();
       var suits = new List<string> { "Clubs", "Diamonds", "Hearts", "Spades" };
       var faces = new List<string> { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Jack", "Queen", "King" };
       foreach (var suit in suits)
       {
         foreach (var face in faces)
         {
-          this.cards.Add(new Card(face, suit));
+          this.Cards.Add(new Card(face, suit));
         }                  
       }
     }
 
     public void Shuffle()
     {
-      var numberOfCards = this.cards.Count;
+      var numberOfCards = this.Cards.Count;
       var randomNumberGenerator = new Random();
 
       for (var rightIndex = numberOfCards -1; rightIndex >= 1; rightIndex--)
       {
         var leftIndex = randomNumberGenerator.Next(rightIndex);
-        var leftCard = this.cards[leftIndex];
-        var rightCard = this.cards[rightIndex];
-        this.cards[rightIndex] = leftCard;
-        this.cards[leftIndex] = rightCard;      
+        var leftCard = this.Cards[leftIndex];
+        var rightCard = this.Cards[rightIndex];
+        this.Cards[rightIndex] = leftCard;
+        this.Cards[leftIndex] = rightCard;      
       }
       
     }
+    public Card Deal()
+    {
+      // ; <-- the top card.
+      var card = this.Cards[0];
+      this.Cards.RemoveAt(0);
+      return card;
+    }
   }
   
+  class Hand  
+  {
+    List<Card> Cards = new List<Card>();
+
+    public int Score()
+    {
+      int total = 0;
+
+      // for each card, add it's card.Value() to total;
+
+      return total;
+    }
+
+    public void Add(Card card)
+    {
+      this.Cards.Add(card);
+    }
+
+    public void Print()
+    {
+      foreach (var card in this.Cards)
+      {
+        Console.WriteLine($"{card}");
+      }
+    }
+  }
+
   class Program
   {
     static void Main(string[] args)
@@ -64,30 +106,35 @@ namespace BlackJackCS
       var deck = new Deck();
       deck.Shuffle();
 
-      // Console.WriteLine(String.Join("\n", deck.cards));
-      Console.WriteLine(deck.cards[0]); // <-  Empty.
-      Console.WriteLine(deck.cards[1]);
+      // Deal two cards to the House
+      var house = new Hand();
+      house.Add(deck.Deal());
+      house.Add(deck.Deal());
+      
+      // Deal two cards to the Player
+      var player = new Hand();
+      player.Add(deck.Deal());
+      player.Add(deck.Deal());
+
+      // Print Player cards
+      Console.WriteLine("Your hand:");
+      player.Print();
+
+      // Ask Player to "hit" or "stay"
+      Console.WriteLine("Would you like to (h)it or (s)tay?");
+      var response = Console.ReadLine();
+      if (response.ToLower().StartsWith("h"))
+      {
+        Console.WriteLine("You HIT");
+        player.Add(deck.Deal());
+        Console.WriteLine("Your hand:");
+        player.Print();
+        // If `<Hand>` score > 21 Player "busts"
+      }
+      else
+      {
+        Console.WriteLine("You Stayed");
+      }
     }
   }
 }
-
-// class Book {
-//   string title;
-//   string author;
-//   public Book (string aTitle, string anAuthor)
-//   {
-//     this.title = aTitle;
-//     this.author = anAuthor;
-//   }
-//   public void Read () {
-//     this.DoStuff()
-//       // Do fancy text-to-speech ooooh.
-//   }
-// }
-// book = new Book()
-// book.Read()
-// Read (book) {
-//   book.DoStuff()
-//     // Do fancy text-to-speech ooooh.
-// }
-// Read(book)
