@@ -8,25 +8,19 @@ namespace BlackJackCS
     // STATE or DATA
     public string Suit; // <- a property.
     public string Face;
+    public int Value;
 
     // BEHAVIOR...
 
     // The constructor:
-    public Card(string face, string suit) {
+    public Card(string face, string suit, int value) {
       this.Face = face;
       this.Suit = suit;
+      this.Value = value;
     }
 
     override public string ToString() {
       return $"{this.Face} of {this.Suit}";
-    }
-
-    public int Value()
-    {
-      // Return 1 for an Ace
-      // Return 2 for Two, Three, etc.
-      // Return 10 for Jack, Queen, etc.
-      return 0;
     }
   }
   
@@ -38,13 +32,15 @@ namespace BlackJackCS
     {
       this.Cards = new List<Card>();
       var suits = new List<string> { "Clubs", "Diamonds", "Hearts", "Spades" };
-      var faces = new List<string> { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Jack", "Queen", "King" };
+      var faces = new List<string> { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
       foreach (var suit in suits)
       {
-        foreach (var face in faces)
+        for (int i = 0; i < faces.Count; i++)
         {
-          this.Cards.Add(new Card(face, suit));
-        }                  
+          var face = faces[i];
+          var value = i < 9 ? i + 1 : 10;
+          this.Cards.Add(new Card(face, suit, value));
+        }
       }
     }
 
@@ -65,7 +61,6 @@ namespace BlackJackCS
     }
     public Card Deal()
     {
-      // ; <-- the top card.
       var card = this.Cards[0];
       this.Cards.RemoveAt(0);
       return card;
@@ -79,9 +74,10 @@ namespace BlackJackCS
     public int Score()
     {
       int total = 0;
-
-      // for each card, add it's card.Value() to total;
-
+      foreach (var card in this.Cards)
+      {
+        total += card.Value;
+      }
       return total;
     }
 
@@ -94,7 +90,7 @@ namespace BlackJackCS
     {
       foreach (var card in this.Cards)
       {
-        Console.WriteLine($"{card}");
+        Console.WriteLine($"{card} ({card.Value})");
       }
     }
   }
@@ -103,37 +99,92 @@ namespace BlackJackCS
   {
     static void Main(string[] args)
     {
-      var deck = new Deck();
-      deck.Shuffle();
-
-      // Deal two cards to the House
-      var house = new Hand();
-      house.Add(deck.Deal());
-      house.Add(deck.Deal());
-      
-      // Deal two cards to the Player
-      var player = new Hand();
-      player.Add(deck.Deal());
-      player.Add(deck.Deal());
-
-      // Print Player cards
-      Console.WriteLine("Your hand:");
-      player.Print();
-
-      // Ask Player to "hit" or "stay"
-      Console.WriteLine("Would you like to (h)it or (s)tay?");
-      var response = Console.ReadLine();
-      if (response.ToLower().StartsWith("h"))
+      while (true)
       {
-        Console.WriteLine("You HIT");
+        var deck = new Deck();
+        deck.Shuffle();
+
+        // Deal two cards to the House
+        var house = new Hand();
+        house.Add(deck.Deal());
+        house.Add(deck.Deal());
+
+        // Deal two cards to the Player
+        var player = new Hand();
         player.Add(deck.Deal());
-        Console.WriteLine("Your hand:");
+        player.Add(deck.Deal());
+
+        // Print Player cards
+        Console.WriteLine("Your hand is:");
         player.Print();
-        // If `<Hand>` score > 21 Player "busts"
-      }
-      else
-      {
-        Console.WriteLine("You Stayed");
+
+        while (true)
+        {
+          // Ask Player to "hit" or "stay"
+          Console.WriteLine("Would you like to (h)it or (s)tay?");
+          var response = Console.ReadLine();
+          if (response.ToLower().StartsWith("h"))
+          {
+            Console.WriteLine("You HIT");
+            player.Add(deck.Deal());
+
+            // If `<Hand>` score > 21 Player "busts"
+            if (player.Score() >= 21) break;
+          }
+          else
+          {
+            Console.WriteLine("You Stayed");
+            break;
+          }
+        }
+        Console.WriteLine($"The player's hand scores: {player.Score()}");
+        if (player.Score() > 21)
+        {
+          Console.WriteLine("Sorry, you lose.");
+        }
+        else
+        {
+          Console.WriteLine("Dealer Plays.");
+          Console.WriteLine($"The house's hand scores: {house.Score()}");
+          house.Print();
+          // - If House `<Hand>` < 17
+          while (house.Score() < 17)
+          {
+            var newCard = deck.Deal();
+            house.Add(newCard);
+            Console.WriteLine($"The house hits and draws a {newCard}.");
+          }
+          // - if House `<Hand>` > 21 print house hand and goto BUST:
+          Console.WriteLine($"The house's hand scores: {house.Score()}");
+          if (house.Score() > 21)
+          {
+            Console.WriteLine("The house busts. You win!");
+          }
+          else
+          {
+            if (house.Score() >= player.Score())
+            {
+              Console.WriteLine("The house wins!");
+            }
+            else
+            {
+              Console.WriteLine("You win!");
+            }
+          }
+        }
+        //   - Print "Would you like to play again?"
+        Console.WriteLine("Would you like to play again? (y)es or (n)o...");
+        var answer = Console.ReadLine();
+        while (!answer.ToLower().StartsWith("y") && !answer.ToLower().StartsWith("n"))
+        {
+          Console.WriteLine("I didn't understand that answer.");
+          answer = Console.ReadLine();          
+        }
+        if (answer.ToLower().StartsWith("n"))
+        {
+          Console.WriteLine("GoodBye!");
+          break;
+        }
       }
     }
   }
