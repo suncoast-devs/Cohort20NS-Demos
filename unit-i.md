@@ -19,6 +19,10 @@ Kata to practice:
 - https://www.codewars.com/kata/57f222ce69e09c3630000212
 - https://www.codewars.com/kata/volume-of-a-cuboid
 
+- (Triple Trouble)[https://www.codewars.com/kata/5704aea738428f4d30000914]
+- (Tip Calculator)[https://www.codewars.com/kata/tip-calculator]
+- (The Feast of Many Beasts)[https://www.codewars.com/kata/5aa736a455f906981800360d]
+
 ---
 
 ### Past:
