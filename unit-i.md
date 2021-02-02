@@ -12,9 +12,9 @@
 
 Videos:
 
-- LINQ: (Lecture)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFVDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a395a855e9394128f3562b0cb04bb3f887bf1af/lectures-cohort-20-week-2-linq.mp4], (Review)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFlDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--16f63c9e58abdb9b2a2d0bcb440df892f5ded286/lectures-cohort-20-review-at-3-linq-review.mp4]
-- (Pet Adoption App - using classes + LINQ)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c05a814219e70e7439459f97d65c0948e91e7669/lectures-cohort-20-week-2-pet-adoption-app-using-classes-linq.mp4]
-- (Review at 3 - Linq Homework and CODEWARS!)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGtDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84f5a85fbf6b53c047b86bd3f8f43d8453784d26/lectures-cohort-20-review-at-3-linq-homework-and-codewars.mp4]
+- LINQ: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFVDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a395a855e9394128f3562b0cb04bb3f887bf1af/lectures-cohort-20-week-2-linq.mp4), [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFlDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--16f63c9e58abdb9b2a2d0bcb440df892f5ded286/lectures-cohort-20-review-at-3-linq-review.mp4)
+- [Pet Adoption App - using classes + LINQ](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c05a814219e70e7439459f97d65c0948e91e7669/lectures-cohort-20-week-2-pet-adoption-app-using-classes-linq.mp4)
+- [Review at 3 - Linq Homework and CODEWARS!](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGtDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84f5a85fbf6b53c047b86bd3f8f43d8453784d26/lectures-cohort-20-review-at-3-linq-homework-and-codewars.mp4)
 
 ## Week Four
 
@@ -26,10 +26,9 @@ Kata to practice:
 - https://www.codewars.com/kata/5556282156230d0e5e000089/csharp
 - https://www.codewars.com/kata/57f222ce69e09c3630000212
 - https://www.codewars.com/kata/volume-of-a-cuboid
-
-- (Triple Trouble)[https://www.codewars.com/kata/5704aea738428f4d30000914]
-- (Tip Calculator)[https://www.codewars.com/kata/tip-calculator]
-- (The Feast of Many Beasts)[https://www.codewars.com/kata/5aa736a455f906981800360d]
+- [Triple Trouble](https://www.codewars.com/kata/5704aea738428f4d30000914)
+- [Tip Calculator](https://www.codewars.com/kata/tip-calculator)
+- [The Feast of Many Beasts](https://www.codewars.com/kata/5aa736a455f906981800360d)
 
 ---
 
