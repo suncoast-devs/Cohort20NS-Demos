@@ -8,6 +8,14 @@
 
 ### Upcoming:
 
+## Week Five
+
+Videos:
+
+- LINQ: (Lecture)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFVDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a395a855e9394128f3562b0cb04bb3f887bf1af/lectures-cohort-20-week-2-linq.mp4], (Review)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFlDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--16f63c9e58abdb9b2a2d0bcb440df892f5ded286/lectures-cohort-20-review-at-3-linq-review.mp4]
+- (Pet Adoption App - using classes + LINQ)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c05a814219e70e7439459f97d65c0948e91e7669/lectures-cohort-20-week-2-pet-adoption-app-using-classes-linq.mp4]
+- (Review at 3 - Linq Homework and CODEWARS!)[http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGtDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84f5a85fbf6b53c047b86bd3f8f43d8453784d26/lectures-cohort-20-review-at-3-linq-homework-and-codewars.mp4]
+
 ## Week Four
 
 We are continuing BlackJack this week.
