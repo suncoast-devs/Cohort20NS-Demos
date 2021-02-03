@@ -71,14 +71,17 @@ namespace BlackJackCS
   {
     List<Card> Cards = new List<Card>();
 
-    public int Score()
+    public int Score
     {
-      int total = 0;
-      foreach (var card in this.Cards)
+      get
       {
-        total += card.Value;
+        int total = 0;
+        foreach (var card in this.Cards)
+        {
+          total += card.Value;
+        }
+        return total;        
       }
-      return total;
     }
 
     public void Add(Card card)
@@ -129,7 +132,7 @@ namespace BlackJackCS
             player.Add(deck.Deal());
 
             // If `<Hand>` score > 21 Player "busts"
-            if (player.Score() >= 21) break;
+            if (player.Score >= 21) break;
           }
           else
           {
@@ -137,32 +140,32 @@ namespace BlackJackCS
             break;
           }
         }
-        Console.WriteLine($"The player's hand scores: {player.Score()}");
-        if (player.Score() > 21)
+        Console.WriteLine($"The player's hand scores: {player.Score}");
+        if (player.Score > 21)
         {
           Console.WriteLine("Sorry, you lose.");
         }
         else
         {
           Console.WriteLine("Dealer Plays.");
-          Console.WriteLine($"The house's hand scores: {house.Score()}");
+          Console.WriteLine($"The house's hand scores: {house.Score}");
           house.Print();
           // - If House `<Hand>` < 17
-          while (house.Score() < 17)
+          while (house.Score < 17)
           {
             var newCard = deck.Deal();
             house.Add(newCard);
             Console.WriteLine($"The house hits and draws a {newCard}.");
           }
           // - if House `<Hand>` > 21 print house hand and goto BUST:
-          Console.WriteLine($"The house's hand scores: {house.Score()}");
-          if (house.Score() > 21)
+          Console.WriteLine($"The house's hand scores: {house.Score}");
+          if (house.Score > 21)
           {
             Console.WriteLine("The house busts. You win!");
           }
           else
           {
-            if (house.Score() >= player.Score())
+            if (house.Score >= player.Score)
             {
               Console.WriteLine("The house wins!");
             }
