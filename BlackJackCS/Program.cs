@@ -70,22 +70,26 @@ namespace BlackJackCS
   class Hand  
   {
     List<Card> Cards = new List<Card>();
+    int _cachedScore = 0;
 
     public int Score
     {
       get
       {
-        int total = 0;
-        foreach (var card in this.Cards)
+        if (_cachedScore == 0)
         {
-          total += card.Value;
+          foreach (var card in this.Cards)
+          {
+            _cachedScore += card.Value;
+          }
         }
-        return total;        
+        return _cachedScore;
       }
     }
 
     public void Add(Card card)
     {
+      _cachedScore = 0;
       this.Cards.Add(card);
     }
 
