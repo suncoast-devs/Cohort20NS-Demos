@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassyClasses
+namespace ClassyClassesOld
 {
 
   class Size
