@@ -4,6 +4,8 @@
 
 [Repository of Notes for our Cohort](https://github.com/suncoast-devs/Cohort20NS-Demos/)
 
+[Katas](https://github.com/suncoast-devs/handbook/blob/master/lessons/misc-codewars/index.md)
+
 ---
 
 ### Upcoming:
