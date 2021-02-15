@@ -14,7 +14,7 @@
 
 Videos:
 
-- Reading and Writing Files: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG9DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a5a176260c00691ca56e21eed30bdb324f9a7b7f/lectures-cohort-20-week-2-reading-and-writing-files.mp4) [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--87e353590f5cbeb611f6b7d20c64230e6760378e/lectures-cohort-20-review-at-3-using-csv-readers-and-codewars.mp4)
+- Reading and Writing Files: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG9DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a5a176260c00691ca56e21eed30bdb324f9a7b7f/lectures-cohort-20-week-2-reading-and-writing-files.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--87e353590f5cbeb611f6b7d20c64230e6760378e/lectures-cohort-20-review-at-3-using-csv-readers-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/cs-files-reading-and-writing)
 
 ---
 
