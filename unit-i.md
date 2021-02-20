@@ -10,7 +10,7 @@
 
 ### Upcoming:
 
-## Weeek Seven
+## Week Seven
 
 - SQL Intro [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcklDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b22fa486d53b2ad7e2774ce8a2a7854aed2e356/lectures-cohort-20-week-3-intro-to-sql.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclFDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ee2d6e9f8c8dc503819059066d6a35adc34dd7a3/lectures-cohort-20-review-at-3-sql-questions-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/sql-intro)
 - SQL Joins [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcllDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3425e9ad87217e5fedfb5dfb5cc85e29ee32ab6f/lectures-cohort-20-week-3-sql-joins.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--74f29909708f0b3b3ad46bb60dd4dd0694817086/lectures-cohort-20-review-at-3-sql-joins-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/sql-joins)
