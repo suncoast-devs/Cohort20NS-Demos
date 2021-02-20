@@ -15,12 +15,6 @@
 - SQL Intro [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcklDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b22fa486d53b2ad7e2774ce8a2a7854aed2e356/lectures-cohort-20-week-3-intro-to-sql.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclFDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ee2d6e9f8c8dc503819059066d6a35adc34dd7a3/lectures-cohort-20-review-at-3-sql-questions-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/sql-intro)
 - SQL Joins [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcllDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3425e9ad87217e5fedfb5dfb5cc85e29ee32ab6f/lectures-cohort-20-week-3-sql-joins.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--74f29909708f0b3b3ad46bb60dd4dd0694817086/lectures-cohort-20-review-at-3-sql-joins-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/sql-joins)
 
-## Week Six
-
-Videos:
-
-- Reading and Writing Files: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG9DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a5a176260c00691ca56e21eed30bdb324f9a7b7f/lectures-cohort-20-week-2-reading-and-writing-files.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--87e353590f5cbeb611f6b7d20c64230e6760378e/lectures-cohort-20-review-at-3-using-csv-readers-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/cs-files-reading-and-writing)
-
 ---
 
 ### Past:
@@ -52,14 +46,6 @@ Videos:
   - [Video - Blackjack](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcE1DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--591626d7c958a29b310a68e725dc6f8e00adbccf/lectures-cohort-20-week-2-blackjack-review.mp4)
   - [Video - Blackjack Continued](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFFDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--795dcc2b48c0916f53f0de03a12e0a94c1e455eb/lectures-cohort-20-week-2-blackjack-continued.mp4)
 
-## Week Five
-
-Videos:
-
-- LINQ: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFVDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a395a855e9394128f3562b0cb04bb3f887bf1af/lectures-cohort-20-week-2-linq.mp4), [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFlDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--16f63c9e58abdb9b2a2d0bcb440df892f5ded286/lectures-cohort-20-review-at-3-linq-review.mp4)
-- [Pet Adoption App - using classes + LINQ](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c05a814219e70e7439459f97d65c0948e91e7669/lectures-cohort-20-week-2-pet-adoption-app-using-classes-linq.mp4)
-- [Review at 3 - Linq Homework and CODEWARS!](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGtDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84f5a85fbf6b53c047b86bd3f8f43d8453784d26/lectures-cohort-20-review-at-3-linq-homework-and-codewars.mp4)
-
 ## Week Four
 
 We are continuing BlackJack this week.
@@ -73,3 +59,17 @@ Kata to practice:
 - [Triple Trouble](https://www.codewars.com/kata/5704aea738428f4d30000914)
 - [Tip Calculator](https://www.codewars.com/kata/tip-calculator)
 - [The Feast of Many Beasts](https://www.codewars.com/kata/5aa736a455f906981800360d)
+
+## Week Five
+
+Videos:
+
+- LINQ: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFVDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a395a855e9394128f3562b0cb04bb3f887bf1af/lectures-cohort-20-week-2-linq.mp4), [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFlDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--16f63c9e58abdb9b2a2d0bcb440df892f5ded286/lectures-cohort-20-review-at-3-linq-review.mp4)
+- [Pet Adoption App - using classes + LINQ](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c05a814219e70e7439459f97d65c0948e91e7669/lectures-cohort-20-week-2-pet-adoption-app-using-classes-linq.mp4)
+- [Review at 3 - Linq Homework and CODEWARS!](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGtDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84f5a85fbf6b53c047b86bd3f8f43d8453784d26/lectures-cohort-20-review-at-3-linq-homework-and-codewars.mp4)
+
+## Week Six
+
+Videos:
+
+- Reading and Writing Files: [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG9DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a5a176260c00691ca56e21eed30bdb324f9a7b7f/lectures-cohort-20-week-2-reading-and-writing-files.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--87e353590f5cbeb611f6b7d20c64230e6760378e/lectures-cohort-20-review-at-3-using-csv-readers-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/cs-files-reading-and-writing)
