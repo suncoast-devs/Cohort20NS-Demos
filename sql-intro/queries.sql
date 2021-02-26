@@ -7,41 +7,19 @@ CREATE TABLE "Employees" (
   "IsPartTime" BOOL DEFAULT FALSE
 );
 
-INSERT INTO "Employees" ("FullName",  "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ('Joe Myers', 120000, 'Senior Software Engineer', '', FALSE);
-
-INSERT INTO "Employees" ("FullName",  "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ('Brendan Einhorn', 7500000, 'Accountant', '', FALSE);
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Dee Dee McPherson', 75000, 'Grunt', '106', False);
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Suki Gorman', 90000, 'Office Cat', '111', True);  
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Sly Marbo',260000, 'Manager', '100', False);
-
-INSERT INTO "Employees" ("FullName",  "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ('Johnny Awesome', 42345, 'Junior Software Engineer', '', FALSE);
-
-INSERT INTO "Employees" ("FullName",  "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ('Sally Jones', 500000, 'Jr Accountant', '', FALSE);
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Frank Gorman', 90000, 'Sensei', '321', True);  
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Barry Foo', 234563, 'Programmer II', '120', False);
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Dee Dee McPherson', 1200000000, 'Hero', '777', False);
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Do Dee McDonald', 75000, 'Cook', '106', False);
-
-INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
-VALUES ( 'Lazy Larry', 275000, '???', '', TRUE);
+INSERT INTO "Employees" ("FullName",  "Salary", "JobPosition", "PhoneExtension", "IsPartTime", "DepartmentId")
+VALUES ('Joe Myers', 120000, 'Senior Software Engineer', '', FALSE, 1),
+('Brendan Einhorn', 7500000, 'Accountant', '', FALSE, 2),
+('Dee Dee McPherson', 75000, 'Grunt', '106', False, 1),
+('Suki Gorman', 90000, 'Office Cat', '111', True, 2),  
+('Sly Marbo',260000, 'Manager', '100', False, 2),
+('Johnny Awesome', 42345, 'Junior Software Engineer', '', FALSE, 1),
+('Sally Jones', 500000, 'Jr Accountant', '', FALSE, 2),
+('Frank Gorman', 90000, 'Sensei', '321', True, 1),  
+('Barry Foo', 234563, 'Programmer II', '120', False, 1),
+('Dee Dee McPherson', 1200000000, 'Hero', '777', False, 2),
+('Do Dee McDonald', 75000, 'Cook', '106', False, 2),
+('Lazy Larry', 275000, '???', '', TRUE, 1);
 
 SELECT * FROM "Employees";
 
@@ -59,7 +37,6 @@ SELECT * FROM "Employees";
 --  10 | Dee Dee McPherson | 1200000000 | Hero                     | 777            | f
 --  12 | Do Dee McDonald   |      75000 | Cook                     | 106            | f
 --  13 | Lazy Larry        |     275000 | ???                      |                | t
-
 -- Select only the full names and phone extensions for only full-time employees.
 
 SELECT "FullName", "PhoneExtension" FROM "Employees" WHERE "IsPartTime" = FALSE;
@@ -97,3 +74,86 @@ DELETE FROM "Employees" WHERE "FullName" = 'Lazy Larry';
 -- Add a column to the table: ParkingSpot as textual information that can store up to 10 characters.
 
 ALTER TABLE "Employees" ADD COLUMN "ParkingSpot" VARCHAR(10);
+
+CREATE TABLE "Departments" (
+"Id" SERIAL PRIMARY KEY,
+"DepartmentName" TEXT,
+"Building" TEXT
+);
+
+ALTER TABLE "Employees" ADD COLUMN "DepartmentId" INTEGER NULL REFERENCES "Departments" ("Id");
+
+CREATE TABLE "Products" ( 
+  "Id" SERIAL PRIMARY KEY, 
+  "Price" MONEY,
+  "Name" TEXT, 
+  "Description" TEXT, 
+  "QuantityInStock" INT
+  ); 
+
+CREATE TABLE "Orders" (
+    "Id" SERIAL PRIMARY KEY,
+    "OrderNumber" TEXT,
+    "DatePlaced" TIMESTAMP,
+    "Email" TEXT
+  );
+
+CREATE TABLE "ProductOrders" (
+  "OrderQuantity" INT,
+  "ProductId" INTEGER REFERENCES "Products" ("Id"),
+  "OrderId" INTEGER REFERENCES "Orders" ("Id")
+  );
+
+INSERT INTO "Departments" ("DepartmentName", "Building")
+VALUES ('Development', 'Main'), ('Marketing', 'North');
+
+INSERT INTO "Employees" ("FullName",  "Salary", "JobPosition", "PhoneExtension", "IsPartTime", "DepartmentId")
+VALUES ('Tim Smith', 40000, 'Programmer', '123', FALSE, 1),
+('Barbara Ramsey', 80000, 'Manager', '234', FALSE, 1),
+('Tom Jones', 32000, 'Admin', '456', TRUE, 2);
+
+INSERT INTO "Products"("Price", "Name", "Description", "QuantityInStock")
+VALUES (12.45, 'Widget', 'The Original Widget', 100),
+(99.99, 'Flowbee', 'Perfect for haircuts', 3);
+
+INSERT INTO "Orders"("OrderNumber", "DatePlaced", "Email")
+VALUES ('X529', '2020-01-01 16:55:00', 'person@example.com');
+
+INSERT INTO "ProductOrders" ("OrderQuantity", "ProductId", "OrderId")
+VALUES (3, 1, 1),
+       (2, 2, 1);
+
+SELECT *
+FROM "Employees"
+JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id" 
+WHERE "Departments"."Building" = 'North Side';
+
+SELECT *
+FROM "Employees"
+JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id" 
+WHERE "Departments"."Building" = 'East Side';
+
+SELECT *
+FROM "Employees"
+JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id" 
+WHERE "Departments"."Building" = 'Main';
+
+-- SELECT *
+-- FROM "Employees"
+-- JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id" 
+-- WHERE "Departments"."Building" IN ('Main', 'North', 'East Side');
+
+SELECT *
+FROM "Orders"
+JOIN "ProductOrders" ON "ProductOrders"."OrderId" = "Orders"."Id" 
+WHERE "ProductOrders"."ProductId" = 2;
+
+SELECT "OrderQuantity"
+FROM "ProductOrders"
+JOIN "Products" ON "ProductOrders"."ProductId" = "Products"."Id" 
+WHERE "Products"."Name" = 'Flowbee';
+
+SELECT SUM("OrderQuantity"), "Products"."Name"
+FROM "ProductOrders"
+JOIN "Products" ON "ProductOrders"."ProductId" = "Products"."Id" 
+GROUP BY "Products"."Name";
