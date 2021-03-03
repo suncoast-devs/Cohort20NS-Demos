@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using RhythmsGonnaGetYou.Models;
 
 namespace RhythmsGonnaGetYou
 {
@@ -6,7 +8,25 @@ namespace RhythmsGonnaGetYou
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to C#");
+      var db  = new RhythmContext();
+      var bands = db.Bands;
+
+      var band = new Band()
+      {
+        Name = "The Cure",
+        CountryOfOrigin = "UK",
+        NumberOfMembers = 5,
+        Website = "https://thecure.com",
+        Style = "Post-Punk",
+        IsSigned = true,
+        ContactName = "Robert Smith",
+        ContactPhoneNumber = "+114230984985702"
+      };
+
+      bands.Add(band);
+      db.SaveChanges();
+
+      Console.WriteLine($"There are {bands.Count()} bands!");
     }
   }
 }
