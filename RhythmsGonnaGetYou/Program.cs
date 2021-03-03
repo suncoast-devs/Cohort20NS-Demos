@@ -17,7 +17,7 @@ namespace RhythmsGonnaGetYou
         CountryOfOrigin = "UK",
         NumberOfMembers = 5,
         Website = "https://thecure.com",
-        Style = "Post-Punk",
+        Genre = "Post-Punk",
         IsSigned = true,
         ContactName = "Robert Smith",
         ContactPhoneNumber = "+114230984985702"

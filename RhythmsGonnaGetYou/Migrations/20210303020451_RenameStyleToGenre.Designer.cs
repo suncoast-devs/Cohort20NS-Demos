@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using RhythmsGonnaGetYou;
@@ -9,9 +10,10 @@ using RhythmsGonnaGetYou;
 namespace RhythmsGonnaGetYou.Migrations
 {
     [DbContext(typeof(RhythmContext))]
-    partial class RhythmContextModelSnapshot : ModelSnapshot
+    [Migration("20210303020451_RenameStyleToGenre")]
+    partial class RenameStyleToGenre
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

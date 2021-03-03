@@ -36,8 +36,8 @@ WHERE "Id" = 1;
 -- Given a band name, view all their albums
 
 SELECT * FROM "Albums"
-WHERE "Bands"."Name" = 'Paramore'
-JOIN "Bands" ON "Album"."BandId" = "Band"."Id"; 
+JOIN "Bands" ON "Albums"."BandId" = "Bands"."Id"
+WHERE "Bands"."Name" = 'The Cure';
 													-- 						^- Band's Primary Key
 													-- ^- Band's Foreign Key on Albums
 
@@ -52,8 +52,8 @@ JOIN "Bands" ON "Album"."BandId" = "Band"."Id";
 
 SELECT "Albums".*, "Songs".*
 FROM "Albums"
-JOIN "Songs" ON "Song"."AlbumId" = "Album"."Id";
-ORDER BY "Ablum"."ReleaseDate" ASC;
+JOIN "Songs" ON "Songs"."AlbumId" = "Albums"."Id"
+ORDER BY "Albums"."ReleaseDate" ASC;
 
 -- View all bands that are signed
 
