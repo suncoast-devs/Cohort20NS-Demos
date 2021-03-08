@@ -10,11 +10,15 @@
 
 ### Upcoming:
 
-## Week Eight
+## Week Nine
 
-- [Entity Framework](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmdDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8269f3396ab4cd1b279606286e4ec37776580924/lectures-cohort-20-week-3-entity-framework.mp4) [Reading](https://handbook.suncoast.io/lessons/cs-object-relational-mapping)
-- [How does the Internet work?](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcndDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81342149119de1dad32c211cea4b3ecafd352740/lectures-cohort-20-how-does-the-internet-work.mp4) [Reading](https://handbook.suncoast.io/lessons/misc-how-does-the-internet-work)
-- [Branding + Diversity & Inclusion](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bf9986eeb5c0094dacb3c7daaa564482f4482445/lectures-cohort-20-branding-diversity-amp-inclusion.mp4)
+- [How does the Internet work?](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcndDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81342149119de1dad32c211cea4b3ecafd352740/lectures-cohort-20-how-does-the-internet-work.mp4) ([Reading](https://handbook.suncoast.io/lessons/misc-how-does-the-internet-work))
+- [C# API Clients](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjRDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--edc823cc61c52695c688b4c8eda90c3ee73da62e/lectures-cohort-20-c-api-clients.mp4) 
+- Reading:
+  - https://handbook.suncoast.io/lessons/http-intro
+  - https://handbook.suncoast.io/lessons/misc-json
+  - https://handbook.suncoast.io/lessons/misc-api-intro
+  - https://handbook.suncoast.io/lessons/cs-api-clients
 
 ---
 
@@ -79,3 +83,9 @@ Videos:
 
 - SQL Intro [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcklDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b22fa486d53b2ad7e2774ce8a2a7854aed2e356/lectures-cohort-20-week-3-intro-to-sql.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclFDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ee2d6e9f8c8dc503819059066d6a35adc34dd7a3/lectures-cohort-20-review-at-3-sql-questions-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/sql-intro)
 - SQL Joins [Lecture](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcllDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3425e9ad87217e5fedfb5dfb5cc85e29ee32ab6f/lectures-cohort-20-week-3-sql-joins.mp4) / [Review](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--74f29909708f0b3b3ad46bb60dd4dd0694817086/lectures-cohort-20-review-at-3-sql-joins-and-codewars.mp4) / [Reading](https://handbook.suncoast.io/lessons/sql-joins)
+
+## Week Eight
+
+- [Entity Framework](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmdDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8269f3396ab4cd1b279606286e4ec37776580924/lectures-cohort-20-week-3-entity-framework.mp4) [Reading](https://handbook.suncoast.io/lessons/cs-object-relational-mapping)
+- [How does the Internet work?](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcndDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81342149119de1dad32c211cea4b3ecafd352740/lectures-cohort-20-how-does-the-internet-work.mp4) [Reading](https://handbook.suncoast.io/lessons/misc-how-does-the-internet-work)
+- [Branding + Diversity & Inclusion](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bf9986eeb5c0094dacb3c7daaa564482f4482445/lectures-cohort-20-branding-diversity-amp-inclusion.mp4)
