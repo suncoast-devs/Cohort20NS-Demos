@@ -8,17 +8,14 @@
 
 ---
 
-### Upcoming:
+## Week Ten
 
-## Week Nine
-
-- [How does the Internet work?](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcndDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81342149119de1dad32c211cea4b3ecafd352740/lectures-cohort-20-how-does-the-internet-work.mp4) ([Reading](https://handbook.suncoast.io/lessons/misc-how-does-the-internet-work))
-- [C# API Clients](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjRDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--edc823cc61c52695c688b4c8eda90c3ee73da62e/lectures-cohort-20-c-api-clients.mp4) 
+- [API Servers](https://nexus.suncoast.io/lecture_videos/256)
+- [CRUD Based API Servers](https://nexus.suncoast.io/lecture_videos/258)
+- [Job Options + Time & Stress Management](https://nexus.suncoast.io/lecture_videos/252)
 - Reading:
-  - https://handbook.suncoast.io/lessons/http-intro
-  - https://handbook.suncoast.io/lessons/misc-json
-  - https://handbook.suncoast.io/lessons/misc-api-intro
-  - https://handbook.suncoast.io/lessons/cs-api-clients
+  - https://handbook.suncoast.io/lessons/cs-api-servers
+  - https://handbook.suncoast.io/lessons/cs-api-servers-crud  
 
 ---
 
@@ -89,3 +86,14 @@ Videos:
 - [Entity Framework](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmdDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8269f3396ab4cd1b279606286e4ec37776580924/lectures-cohort-20-week-3-entity-framework.mp4) [Reading](https://handbook.suncoast.io/lessons/cs-object-relational-mapping)
 - [How does the Internet work?](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcndDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81342149119de1dad32c211cea4b3ecafd352740/lectures-cohort-20-how-does-the-internet-work.mp4) [Reading](https://handbook.suncoast.io/lessons/misc-how-does-the-internet-work)
 - [Branding + Diversity & Inclusion](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnNDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bf9986eeb5c0094dacb3c7daaa564482f4482445/lectures-cohort-20-branding-diversity-amp-inclusion.mp4)
+
+## Week Nine
+
+- [How does the Internet work?](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcndDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81342149119de1dad32c211cea4b3ecafd352740/lectures-cohort-20-how-does-the-internet-work.mp4) ([Reading](https://handbook.suncoast.io/lessons/misc-how-does-the-internet-work))
+- [C# API Clients](http://pylon.suncoast.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjRDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--edc823cc61c52695c688b4c8eda90c3ee73da62e/lectures-cohort-20-c-api-clients.mp4) 
+- Reading:
+  - https://handbook.suncoast.io/lessons/http-intro
+  - https://handbook.suncoast.io/lessons/misc-json
+  - https://handbook.suncoast.io/lessons/misc-api-intro
+  - https://handbook.suncoast.io/lessons/cs-api-clients
+
