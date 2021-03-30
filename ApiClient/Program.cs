@@ -85,6 +85,7 @@ namespace ApiClient
       //                    ^--- Pass ain the movie that the user picked, i.e. at position (answer-1) 
 
       ShowFilmDetails(films[answer - 1]);
+      // Make menu work good.
     }
 
     static void ShowFilmDetails(Film film)
