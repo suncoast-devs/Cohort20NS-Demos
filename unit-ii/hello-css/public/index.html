@@ -3,8 +3,9 @@
   <head lang="en">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hello HTML</title>
+    <title>Hello CSS</title>
     <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
     <h1>Jason's Hobbies</h1>
@@ -19,23 +20,34 @@
 
     <ul>
       <li>
-        <figure>
+        <figure class="polaroid red">
           <img
             src="/images/city_of_kings.jpg"
             height="400"
             width="400"
             alt="Miniature from City of Kings"
           />
-          <figcaption>City of Kings</figcaption>
+          <figcaption>
+            <a href="http://thecityofkings.com/games/the-city-of-kings/"
+              >City of Kings</a
+            >
+          </figcaption>
         </figure>
       </li>
       <li>
-        <img
-          src="/images/ram_clan.jpg"
-          height="400"
-          width="400"
-          alt="Ram Clan from Blood Rage"
-        />
+        <figure class="polaroid">
+          <img
+            src="/images/ram_clan.jpg"
+            height="400"
+            width="400"
+            alt="Ram Clan from Blood Rage"
+          />
+          <figcaption>
+            <a href="https://www.cmon.com/product/blood-rage/blood-rage"
+              >Blood Rage</a
+            >
+          </figcaption>
+        </figure>
       </li>
     </ul>
 
