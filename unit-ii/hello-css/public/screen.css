@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
 :root {
   font: 16px / 1 'Inika', sans-serif;
 }
@@ -8,7 +10,7 @@ body {
 }
 
 h1 {
-  font-family: 'Arkipelago', cursive;
+  font-family: 'Mansalva', cursive;
   color: aquamarine;
   font-size: 4em;
   text-align: center;
@@ -65,8 +67,8 @@ ul {
 .polaroid figcaption {
   position: absolute;
   color: #333;
-  font-family: 'Arkipelago', cursive;
-  font-size: 3rem;
+  font-family: 'Mansalva', cursive;
+  font-size: 2rem;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
