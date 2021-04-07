@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 'Verdana', sans-serif;
 }
 
 html {
@@ -9,4 +9,78 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #e4f3f5;
+  color: #4a5f73;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 1.5rem;
+}
+
+header nav {
+  background-color: #55c5d9;
+}
+
+header nav a:link,
+header nav a:visited {
+  color: white;
+}
+
+header nav a:focus,
+header nav a:hover {
+  color: pink;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+aside {
+  border: thin solid #55c5d9;
+  align-self: start;
+  margin: 0 1rem;
+}
+
+article {
+  margin: 0 1rem;
+}
+
+aside figure {
+  padding: 0.25rem;
+  margin: 0;
+}
+
+footer {
+  padding: 0.5rem;
+  background-color: #d6e0e1;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a:link,
+footer a:visited {
+  color: #4a5f73;
+}
+
+footer a:focus,
+footer a:hover {
+  color: #55c5d9;
 }
