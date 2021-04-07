@@ -49,6 +49,7 @@ nav li {
 main {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
 }
 
 aside {
@@ -59,6 +60,7 @@ aside {
 
 article {
   margin: 0 1rem;
+  max-width: 72ch;
 }
 
 aside figure {
