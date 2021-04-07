@@ -66,6 +66,11 @@ aside figure {
   margin: 0;
 }
 
+aside figcaption {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 footer {
   padding: 0.5rem;
   background-color: #d6e0e1;
@@ -83,4 +88,8 @@ footer a:visited {
 footer a:focus,
 footer a:hover {
   color: #55c5d9;
+}
+
+footer .hearts {
+  color: #b00;
 }
