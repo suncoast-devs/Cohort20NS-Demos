@@ -14,3 +14,4 @@
 - [Introduction to JavaScript](https://nexus.suncoast.io/lecture_videos/275)
 - [Design for Devs](https://nexus.suncoast.io/lecture_videos/70)
 - Reading: https://handbook.suncoast.io/lessons/js-intro
+- [JavaScript Functions and Iteration/Enumeration](https://nexus.suncoast.io/lecture_videos/277)
