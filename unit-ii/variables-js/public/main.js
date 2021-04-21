@@ -1,7 +1,7 @@
-function main() {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
-  }
-}
+// Console.WriteLine()
 
-document.addEventListener('DOMContentLoaded', main)
+let thing = window.prompt('What is this?')
+
+console.log('Hello, World.')
+
+console.log(thing)
