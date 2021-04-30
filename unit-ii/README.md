@@ -25,3 +25,8 @@
 - [UI as State](https://nexus.suncoast.io/lecture_videos/286)
   - [Review at 3 - Reviewing Homework Questions, and Codewars](https://nexus.suncoast.io/lecture_videos/287)
 - [UX w/ Nichelle Jerido](https://nexus.suncoast.io/lecture_videos/285)
+
+## Week 15
+
+- https://nexus.suncoast.io/lecture_videos/286 - UI as State
+- https://nexus.suncoast.io/lecture_videos/288 - Intro to React
