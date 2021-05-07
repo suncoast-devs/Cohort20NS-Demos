@@ -30,3 +30,10 @@
 
 - https://nexus.suncoast.io/lecture_videos/286 - UI as State
 - https://nexus.suncoast.io/lecture_videos/288 - Intro to React
+
+# Week 16
+
+- [07-04 - React Review](https://nexus.suncoast.io/lecture_videos/292)
+- [Review at 3 - Fetch and State review questions](https://nexus.suncoast.io/lecture_videos/291)
+- [07-03 - React State and Lifecycle and Fetch](https://nexus.suncoast.io/lecture_videos/290)
+- [Review at 3 - General Review Questions on current and previous homework](https://nexus.suncoast.io/lecture_videos/289)
