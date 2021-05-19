@@ -37,3 +37,14 @@
 - [Review at 3 - Fetch and State review questions](https://nexus.suncoast.io/lecture_videos/291)
 - [07-03 - React State and Lifecycle and Fetch](https://nexus.suncoast.io/lecture_videos/290)
 - [Review at 3 - General Review Questions on current and previous homework](https://nexus.suncoast.io/lecture_videos/289)
+
+# Week 17
+
+-   [08-03 - useEffect](https://nexus.suncoast.io/lecture_videos/297)
+-   [Review at 3 - Converting Temps to Hooks, and HW Questions](https://nexus.suncoast.io/lecture_videos/296)
+-   [08-02 - React Hooks!](https://nexus.suncoast.io/lecture_videos/295)
+-   [Review at 3 - Reviewing Inputs, and previous HW question's](https://nexus.suncoast.io/lecture_videos/294)
+-   [08-01 - Minesweeper Review, React State/Event flow, Capstones](https://nexus.suncoast.io/lecture_videos/293)
+-   [07-04 - React Review](https://nexus.suncoast.io/lecture_videos/292)
+
+
