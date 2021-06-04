@@ -47,4 +47,9 @@
 -   [08-01 - Minesweeper Review, React State/Event flow, Capstones](https://nexus.suncoast.io/lecture_videos/293)
 -   [07-04 - React Review](https://nexus.suncoast.io/lecture_videos/292)
 
+# Week 18
 
+- [Review at 3 - React-Router and Homework Questions.](https://nexus.suncoast.io/lecture_videos/300)
+- [08-04 - React Router](https://nexus.suncoast.io/lecture_videos/299)
+- [Review at 3 - useEffect, and HW Questions](https://nexus.suncoast.io/lecture_videos/298)
+- [08-03 - useEffect](https://nexus.suncoast.io/lecture_videos/297)
