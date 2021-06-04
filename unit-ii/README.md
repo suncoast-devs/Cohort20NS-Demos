@@ -40,7 +40,6 @@
 
 # Week 17
 
--   [08-03 - useEffect](https://nexus.suncoast.io/lecture_videos/297)
 -   [Review at 3 - Converting Temps to Hooks, and HW Questions](https://nexus.suncoast.io/lecture_videos/296)
 -   [08-02 - React Hooks!](https://nexus.suncoast.io/lecture_videos/295)
 -   [Review at 3 - Reviewing Inputs, and previous HW question's](https://nexus.suncoast.io/lecture_videos/294)
